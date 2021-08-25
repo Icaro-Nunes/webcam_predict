@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+</style>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js" defer></script>
+<script src="./script.js" defer> </script>
+<body>
+
+<div id="app-root" tabindex="-1" style="display: flex; background: white; flex-direction: column;"><div id="announcement" style="top: 0px; position: fixed; opacity: 0;"></div><video id="webCamera" style="background-color: white; width: 224px; height: 224px;" autoplay="" muted="" playsinline=""></video><h1 style="/* margin: 30px; */margin-top: 0px;color: black;margin-bottom: 0px;background: white;">Predict</h1><input id='upload-json' type="file">
+<input class='upload-weights' type="file">
+<input class='upload-weights' type="file">
+<input class='upload-weights' type="file">
+
+
+<button id='loadModel' > Carregar modelo</button>
+<button id='predict'> Predicao</button>
+
+</div>
+</body>
+</html>
+
+
